@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <RelativeLayout
+
+            android:id="@+id/rippleButtonBackLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <!--<com.needstreet.health.hp.customview.button.RipplesButton-->
+                <!--android:id="@+id/rippleButtonBackIcon"-->
+                <!--android:layout_width="35dp"-->
+                <!--android:layout_height="35dp"-->
+                <!--android:visibility="gone"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--app:bg_src="@drawable/logo_back"-->
+                <!--app:ripple_shape="circle" />-->
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:id="@+id/titleEditTextRL"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/actionBarIconSetLayout"
+            android:layout_toRightOf="@+id/rippleButtonBackLayout">
+
+            <com.project.boatnavigation.customview.textview.TitleTextView
+                android:id="@+id/textViewTitleInActionBar"
+                android:layout_width="match_parent"
+                android:gravity="center|left"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="@string/login_title_bar_text"
+                android:singleLine="true"
+                android:textSize="@dimen/title_text_view_text_size" />
+
+            <com.project.boatnavigation.customview.textview.TextViewBase
+                android:id="@+id/textViewHintText"
+                android:layout_width="match_parent"
+                android:gravity="center|left"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="12dp"
+               android:layout_alignParentBottom="true"
+                android:text=""
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="10dp"
+                android:visibility="invisible"
+                android:singleLine="true"
+                android:textColor="#959595"
+                android:textSize="@dimen/list_row_2_text" />
+            <com.project.boatnavigation.customview.edittext.EditTextBase
+                android:id="@+id/editTextSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:imeOptions="actionDone"
+                android:layout_marginBottom="8dp"
+
+                android:layout_marginRight="8dp"
+                android:background="@drawable/text_field"
+                android:inputType="text"
+                android:padding="5dp"
+                android:textSize="@dimen/medium_text_view_text_size"
+                android:textCursorDrawable="@drawable/cursor"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/actionBarIconSetLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rippleSearchLayout"
+                android:layout_width="40dp"
+                android:layout_marginRight="5sp"
+                android:layout_marginLeft="5sp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <com.project.boatnavigation.customview.button.RipplesButton
+                    android:id="@+id/rippleSearch"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerInParent="true"
+                    app:bg_src="@drawable/ic_menu"
+                    app:ripple_shape="circle" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/progressViewLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5sp"
+                android:layout_marginLeft="5sp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+
+                <!--<com.needstreet.health.hp.customview.progressview.CircularProgress-->
+
+                    <!--android:id="@+id/progressView"-->
+
+                    <!--android:layout_width="25dp"-->
+                    <!--android:layout_height="25dp"-->
+                    <!--android:layout_centerInParent="true"-->
+                    <!--widget:circular_progress_size="Small" />-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rippleMenuItemLayout"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5sp"
+                android:layout_marginLeft="5sp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <com.project.boatnavigation.customview.button.RipplesButton
+                    android:id="@+id/rippleMenuItem"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerInParent="true"
+                    app:bg_src="@drawable/ic_menu"
+                    app:ripple_shape="circle" />
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                android:id="@+id/rippleMenuLayout"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10sp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <com.project.boatnavigation.customview.button.RipplesButton
+                    android:id="@+id/rippleMenu"
+
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerInParent="true"
+                    app:bg_src="@drawable/menu"
+                    app:ripple_shape="circle" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

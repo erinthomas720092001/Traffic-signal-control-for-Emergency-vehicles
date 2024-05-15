@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- FloatingEditText Default -->
+
+    <dimen name="floating_edit_text_underline_height">.5dp</dimen>
+    <dimen name="floating_edit_text_underline_highlighted_height">.5dp</dimen>
+
+    <!-- CircularProgress Default -->
+
+    <bool name="circular_progress_indeterminate">true</bool>
+    <dimen name="circular_progress_border_width">4dp</dimen>
+    <dimen name="circular_progress_small_size">36dp</dimen>
+    <dimen name="circular_progress_normal_size">48dp</dimen>
+    <dimen name="circular_progress_large_size">60dp</dimen>
+    <integer name="circular_progress_max">100</integer>
+    <!--Papper button-->
+
+    <dimen name="paper_text_size">15sp</dimen>
+    <dimen name="paper_button_corner_radius">2dp</dimen>
+    <dimen name="paper_padding">7dp</dimen>
+    <!-- LinearProgress Default -->
+    <dimen name="linear_progress_line_width">4dp</dimen>
+    <integer name="linear_progress_max">100</integer>
+
+    <!-- CircleButton Attribute -->
+    <declare-styleable name="CircleButton">
+        <attr name="circle_icon" format="reference"/>
+        <attr name="circle_color" format="color"/>
+        <attr name="circle_shadow_radius" format="float"/>
+        <attr name="circle_shadow_offset_x" format="float"/>
+        <attr name="circle_shadow_offset_y" format="float"/>
+        <attr name="circle_shadow_color" format="color"/>
+    </declare-styleable>
+    <!-- CheckBox Default -->
+    <dimen name="checkbox_width">48dp</dimen>
+    <dimen name="checkbox_height">48dp</dimen>
+    <dimen name="checkbox_thumb_size">20dp</dimen>
+    <dimen name="checkbox_corner_radius">2dp</dimen>
+    <dimen name="checkbox_border_width">2dp</dimen>
+    <dimen name="checkbox_mark_width">2dp</dimen>
+    <dimen name="checkbox_ripple_radius">24dp</dimen>
+    <dimen name="checkbox_mark_left_right_padding">3dp</dimen>
+    <dimen name="checkbox_mark_top_padding">4dp</dimen>
+    <dimen name="checkbox_mark_bottom_padding">5dp</dimen>
+</resources>

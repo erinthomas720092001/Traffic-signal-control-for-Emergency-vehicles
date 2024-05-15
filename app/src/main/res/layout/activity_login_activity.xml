@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CoordinatorLayout is used to create scrolling and "floating" effects within a layout -->
+<!-- This is typically the root layout which wraps the app bar and content -->
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/baseLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/app_bg_color"
+
+    android:layout_height="match_parent">
+
+    <!-- AppBarLayout is a wrapper for a Toolbar in order to apply scrolling effects. -->
+    <!-- Note that AppBarLayout expects to be the first child nested within a CoordinatorLayout -->
+    <ImageView
+
+        android:rotation="0"
+        android:scaleType="centerCrop"
+        android:src="@drawable/shop1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:id="@+id/toolBarBase"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="vertical">
+        <include layout="@layout/custom_dashboard_toolbar" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:background="#ffffff"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+
+
+        <com.project.boatnavigation.customview.edittext.FloatingEditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="18dp"
+
+            android:textCursorDrawable="@drawable/cursor"
+            android:ems="10"
+            android:padding="5dp"
+            android:hint="@string/login_screen_hint_username"
+            android:background="@drawable/edit_text_border"
+            android:inputType="textEmailAddress"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/medium_text_view_text_size"
+            app:floating_edit_text_color="@color/app_small_label_color"
+            app:floating_edit_text_highlighted_color="@color/app_small_label_color"
+            widget:floating_edit_text_hint_scale=".8"/>
+
+        <com.project.boatnavigation.customview.edittext.FloatingEditText
+            android:id="@+id/editTextProblem"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:padding="5dp"
+            android:hint="@string/login_screen_hint_password"
+            android:background="@drawable/edit_text_border"
+            android:inputType="textPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/editTextName"
+            android:textSize="@dimen/medium_text_view_text_size"
+            app:floating_edit_text_color="@color/app_small_label_color"
+            app:floating_edit_text_highlighted_color="@color/app_small_label_color"
+            widget:floating_edit_text_hint_scale=".8"/>
+
+        <com.project.boatnavigation.customview.button.RipplesButton
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editTextProblem"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            app:bg_color="@color/button_bg_color"
+            app:ripple_shape="rectangle"
+            app:text="@string/login_button_text"
+            android:layout_marginBottom="10dp"
+            app:text_color="@color/button_text_color"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            app:text_size="17" />
+
+        <TextView
+            android:layout_marginBottom="18dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textViewSignin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:visibility="visible"
+
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/signin_title_bar_text"
+            android:textColor="@color/app_label_color_secondary"
+            android:layout_below="@+id/loginButton"/>
+
+    </RelativeLayout>
+
+    <!-- This could also be included from another file using the include tag -->
+    <!-- i.e `res/layout/content_main.xml` -->
+    <!-- `app:layout_behavior` is set to a pre-defined standard scrolling behavior -->
+    <!--<android.support.v7.widget.RecyclerView-->
+    <!--android:id="@+id/my_recycler_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:clipToPadding="false"-->
+    <!--android:visibility="gone"-->
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior" />-->
+
+
+</RelativeLayout>

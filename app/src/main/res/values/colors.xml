@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+        <color name="colorPrimary">#673bb7</color>
+        <color name="colorPrimaryDark">#303F9F</color>
+        <color name="colorAccent">#FF4081</color>
+        <color name="transparent">#00000000</color>
+        <color name="text_main_color">#ffffff</color>
+        <color name="app_bg_color">#eeeeee</color>
+
+        <color name="text_edit_color">#444444</color>
+        <color name="cursorAccent">#ff0000</color>
+        <color name="controlNormal">#00ff00</color>
+        <color name="controlActivated">#0000ff</color>
+        <color name="app_circular_miage_view_divider_color">#444444</color>
+
+
+        <color name="app_toolbar_icon_color">#ffffff</color>
+        <color name="app_toolbar_color2">#ffffff</color>
+
+        <color name="color_error_message">#ff686b</color>
+        <color name="color_hint_text">#939393</color>
+        <color name="color_info_hint_text">#b8b8b8</color>
+        <color name="color_Overflow">#FA5B25</color>
+
+        <color name="app_view_divider_color">#cbcbcb</color>
+
+
+        <!--    Floating Edit Text-->
+        <color name="floating_edit_text_color">#696969</color>
+        <color name="floating_edit_text_highlighted_color">#696969</color>
+        <!--<color name="floating_edit_text_error_color">#DB4437</color>-->
+        <color name="floating_edit_text_error_color">#FF686B</color>
+        <color name="floating_edit_text_line_color">#0bd1b5</color>
+        <color name="floating_edit_text_disabled_color">#c2c2c2</color>
+
+        <!--Text color-->
+        <color name="app_label_color">#0bd1b5</color>
+        <color name="app_label_color_secondary">#696969</color>
+        <color name="app_small_label_color">#8b8b8b</color>
+        <color name="app_faded_label_color">#c2c2c2</color>
+        <color name="app_label_color_tertiary">#ffffff</color>
+        <color name="app_label_color_medium">#000000</color>
+        <color name="app_label_color_sub_heading">#0bd1b5</color>
+        <color name="app_label_color_four">#5a6476</color>
+        <color name="app_label_color_five">#3a4354</color>
+
+        <!--Title bar color-->
+        <color name="app_title_bar_color">#2C3342</color>
+        <color name="app_title_bar_color_2">#5a6476</color>
+        <color name="app_title_bar_text_color">#ffffff</color>
+        <!--paper_text-->
+        <color name="paper_text_color">#60000000</color>
+        <color name="paper_button_color">#ffffffff</color>
+        <color name="paper_button_shadow_color">#000000</color>
+
+        <color name="app_label_medium_color_tertiary">#03A9F4</color>
+
+        <color name="vertical_list_view_transparent">#444444</color>
+
+        <color name="color_ransparent">#00444444</color>
+        <!--Text color-->
+        <color name="drawer_title_color">#0bd1b5</color>
+
+        <!--Button-->
+        <color name="button_bg_color">#fe5722</color>
+        <color name="button_text_color">#ffffff</color>
+        <color name="rippelColor">#FFFFFF</color>
+
+
+
+
+</resources>

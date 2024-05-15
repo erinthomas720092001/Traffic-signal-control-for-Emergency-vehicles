@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Navigation</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="app_font_path">fonts/Roboto-Light.ttf</string>
+    <string name="app_font_path_Bold">fonts/Roboto-Regular.ttf</string>
+    <string name="app_font_path_BoldItalic">fonts/Roboto-Light.ttf</string>
+    <string name="app_font_path_Italic">fonts/Roboto-Light-Italic.ttf</string>
+
+    <!--Login-->
+    <string name="item_location_title_bar_text">Item Location</string>
+    <string name="login_title_bar_text">Login</string>
+    <string name="action_please_wait_loading">Loading...</string>
+    <string name="signin_title_bar_text">Create an account</string>
+    <string name="signint_title_bar_text">Sign-in</string>
+    <!--Turf-->
+
+    <string name="login_screen_hint_username">User name</string>
+    <string name="login_screen_hint_password">Password</string>
+    <string name="no_turf_available_2">No Items available</string>
+    <string name="turf_list_title_bar_text">Home</string>
+    <string name="login_button_text">Login</string>
+    <string name="Turf_Details_title_bar_text">Item Details</string>
+    <string name="Turf_item_Details_title_bar_text">Item Details</string>
+    <string name="book_button_text">Add to cart</string>
+    <string name="buy_later_button_text">Buy later</string>
+    <string name="pet_products_list_title_bar_text">Cart</string>
+    <string name="DATE_name">Date</string>
+
+    <string name="time_name">Time</string>
+    <string name="filter_name">Filter</string>
+    <string name="avideo_available_2">Cart Empty</string>
+    <string name="avideo_available_1">No Item Found</string>
+    <string name="avideo_available_btn"></string>
+</resources>
